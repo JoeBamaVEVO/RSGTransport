@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Segoe ui', sans-serif;
+    background-color: beige;
+}
+
+.NavLogo{
+    display: inline;
+}
+
+.Navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Navbar li{
+    float: left;
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.NavLogo a{
+    font-size: 42px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a{
+    font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-item a:hover {
+    transform: scale(1.1);
+    animation: 1s;
+  }
+
+
+.PageHeader{
+    font-size: 42px;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.PageText{
+    font-size: 24px;
+    margin-left: 1rem;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.PageInfo{
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 300;
+}
+
+.TjenesterBtn{
+    margin-left: 1rem;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.801);
+}
+
+.TjenesterBtn:hover{
+    background-color: rgba(0, 0, 255, 0.901);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.container-flex{
+    margin: 2rem 2rem 0rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.container-flex img{
+    margin-top: 3rem;
+    width: 25%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+.TjenesterDiv{
+    flex-wrap: wrap;
+}
