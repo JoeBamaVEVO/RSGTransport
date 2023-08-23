@@ -113,22 +113,25 @@ body{
     font-family: Verdana, sans-serif;
   }
   .mySlides {
-    display: none;
+    max-height:100px;
+    max-width: 50px;
+    overflow: hidden;
+    display: block;
   }
+
   img {
     vertical-align: middle;
   }
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
     position: relative;
     margin: auto;
   }
 
 
   .active {
-    background-color: #717171;
+    background-color: #ffffff;
   }
 
   /* Fading animation */

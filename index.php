@@ -12,7 +12,7 @@
         <div class="container">
             <div class="container-flex">
                 <div class="container-text">
-                    <p class="PageHeader">Trenger du frakt, graving, <br>eller planering?</p>
+                    <p class="PageHeader">Trenger du transport, graving, <br>eller planering?</p>
                     <p class="PageText">Rolfen hjelper deg.<br>  
                         Uansett om du trenger varetransport eller maskinarbeid: <br>
                         Rolfen kan hjelpe deg med alt av transportjenester, <br>
