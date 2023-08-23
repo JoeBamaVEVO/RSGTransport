@@ -8,33 +8,19 @@
 </head>
 <body>
     <?php include 'navbar.php'?>
-    <div class="container-fluid">
-        <div class="container">
-            <p class="mt-5 text-start fs-1 fw-bold ">Våre Tjenester</p>       
-         </div>
-        <div class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img class="d-block w-100" src="bilder/Bilde1.svg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="bilder/bilde2.svg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="bilder/bilde3.svg" alt="Third slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="bilder/aston-martin.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <img src="bilder/audi-rs-e-tron-gt.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="bilder/maserati-mc20.jpg" style="width: 100%" />
+      </div>
     </div>
+    <br />
+    <script src="script.js"></script>
 </body>
 </html>
