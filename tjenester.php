@@ -10,12 +10,11 @@
     <?php include 'navbar.php'?>
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <img src="bilder/bilde1.svg" style="width: 100%" />
+        <img src="bilder/Bilde1.svg" style="width: 100%" />
       </div>
       <div class="mySlides fade">
         <img src="bilder/Bilde2.svg" style="width: 100%" />
       </div>
-
       <div class="mySlides fade">
         <img src="bilder/Bilde3.svg" style="width: 100%" />
       </div>
