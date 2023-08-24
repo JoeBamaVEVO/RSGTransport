@@ -27,8 +27,6 @@
                 </div>
                 <img src="/bilder/Ihi28Gravemaskin.jpg" alt="">
             </div>
-           
-           
         </div>
    </div>
 </body>
