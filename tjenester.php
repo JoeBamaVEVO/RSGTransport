@@ -20,12 +20,20 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="container-text">
-        <p class="PageHeader">Tjenester vi tilbyr</p>
-
-        <p class="PageText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti magnam expedita saepe, culpa illum eaque labore velit in quidem corporis nihil necessitatibus excepturi, beatae mollitia, accusamus dolorum delectus tenetur rerum?</p>
+      <div class="tjenesterListe">
+        <ul>
+          <li>
+            <div class="container-tjenester">
+              <img src="https://placehold.co/400" alt="">  
+              <div class="container-text">
+                <p class="PageHeader">Transport</p>
+                <p class="PageText">Jeg transporterer dine ting osv.[Sample Text]</p>
+              </div>
+            </div>
+          </li>   
+        </ul>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script>     
 </body>
 </html>

@@ -129,6 +129,7 @@ body{
     position: relative;
     margin: auto;
     max-height: 300px;
+    margin-bottom: 5rem;
   }
 
 
@@ -160,3 +161,25 @@ body{
       font-size: 11px;
     }
   }
+
+
+  /* Tjenester Liste Styling */
+
+  .tjenesterListe ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .container-tjenester{
+    display: flex;
+    float: center;
+    border-top: solid;
+    margin: 0px 25rem 0px 25rem;
+  }
+
+  .container-tjenester img{
+    margin-right: 5rem;
+  }
+
