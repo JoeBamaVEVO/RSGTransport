@@ -24,7 +24,7 @@
         <ul>
           <li>
             <div class="container-tjenester">
-              <img src="https://placehold.co/400" alt="">  
+              <img src="https://placehold.co/300" alt="">  
               <div class="container-text">
                 <p class="PageHeader">Transport</p>
                 <p class="PageText">Jeg transporterer dine ting osv.[Sample Text]</p>

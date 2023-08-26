@@ -174,9 +174,10 @@ body{
 
   .container-tjenester{
     display: flex;
+    justify-content: center;
     float: center;
     border-top: solid;
-    margin: 0px 25rem 0px 25rem;
+    margin: 0px 15rem 0px 15rem;
   }
 
   .container-tjenester img{
