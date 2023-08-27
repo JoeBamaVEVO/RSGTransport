@@ -26,7 +26,7 @@
         <ul>
           <li>
             <div class="container-tjenester">
-              <img src="https://placehold.co/400" alt="">  
+              <img src="https://placehold.co/300" alt="">  
               <div class="container-text">
                 <p class="PageHeader">Transport</p>
                 <p class="PageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla perspiciatis minus nostrum, repellat eveniet velit totam fuga distinctio eos quia eius tempora dolores vitae eaque cupiditate iste temporibus commodi.</p>

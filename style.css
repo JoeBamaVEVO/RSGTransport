@@ -187,6 +187,7 @@ body{
 
   .container-tjenester{
     display: flex;
+    justify-content: center;
     float: center;
     border-top: solid;
     margin: 20px 25rem 0px 25rem;
