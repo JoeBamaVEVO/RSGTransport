@@ -21,8 +21,8 @@
                         <p class="PageHeader">Ta kontakt</p>
                         <p class="PageText">  
                             Jeg ønsker å gjøre det så enkelt som mulig for deg å komme i kontakt med oss. <br>
-                            Vennligst bruk følgende kontaktinformasjon eller skjemaet nedenfor for å nå oss. <br>
-                            Vi ser frem til å høre fra deg!
+                            Vennligst bruk følgende kontaktinformasjon for å nå meg. <br>
+                            Jeg ser frem til å høre fra deg!
                         </p>
                         <p class="PageHeader2">
                             Epost:
