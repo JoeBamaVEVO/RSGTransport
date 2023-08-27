@@ -67,7 +67,7 @@ body{
 
 .PageText{
     font-size: 24px;
-    
+    margin-left: 1rem;
     line-height: 28px;
     font-weight: 500;
 }
@@ -213,7 +213,7 @@ footer{
 }
 
 footer ul{
-  /* margin-left: 1rem; */
+  margin-left: 1rem;
   padding: 0;
   list-style-type: none; 
 }
