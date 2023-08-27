@@ -58,9 +58,16 @@ body{
     margin-bottom: 0.5rem;
 }
 
+.PageHeader2{
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 1rem;
+  margin-bottom: 0.2rem;
+}
+
 .PageText{
     font-size: 24px;
-    margin-left: 1rem;
+    
     line-height: 28px;
     font-weight: 500;
 }
@@ -100,6 +107,11 @@ body{
     border-width: 5px;
 }
 
+.container-text-centered{
+  text-align: center;
+  justify-content: center;
+}
+
 .TjenesterDiv{
     flex-wrap: wrap;
 }
@@ -110,6 +122,7 @@ body{
     box-sizing: border-box;
   }
   body {
+    flex-direction: column;
     font-family: Verdana, sans-serif;
   }
   .mySlides {
@@ -176,10 +189,77 @@ body{
     display: flex;
     float: center;
     border-top: solid;
-    margin: 0px 25rem 0px 25rem;
+    margin: 20px 25rem 0px 25rem;
   }
 
   .container-tjenester img{
     margin-right: 5rem;
   }
+ 
+/* Kontakt Liste */
 
+.kontakt-liste{
+  list-style-type: none; /* Remove bullets */
+}
+
+/* footer */
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+}
+
+footer ul{
+  /* margin-left: 1rem; */
+  padding: 0;
+  list-style-type: none; 
+}
+footer li{  
+  margin-top: 1rem;
+}
+footer ul a{
+  color: #979090;
+  text-decoration: none;
+}
+
+footer ul a:hover{
+  color: rgb(156, 69, 69);
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.DevWatermark{
+  color: gray;
+  margin-left: 1rem;
+}
+
+.DevWatermark a{
+  color: gray;
+  /* text-decoration: none; */
+}
+
+.DevWatermark a:hover{
+  transform: scale(1.6);
+  color: beige;
+  transition: 0.2s;
+}
+
+.footer{
+  background-color: rgb(42, 42, 42);
+
+}
+
+
+
+/* footer fix */
+
+main{
+  position: relative;
+  min-height: 100vh;
+}
+
+content{
+  padding-bottom: 2.5rem;
+}

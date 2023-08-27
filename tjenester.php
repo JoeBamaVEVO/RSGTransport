@@ -7,6 +7,8 @@
     <?php include 'head.php'?>
 </head>
 <body>
+<main>
+  <content>    
     <?php include 'navbar.php'?>
     <div class="slideshow-container">
       <div class="mySlides fade">
@@ -27,13 +29,26 @@
               <img src="https://placehold.co/400" alt="">  
               <div class="container-text">
                 <p class="PageHeader">Transport</p>
-                <p class="PageText">Jeg transporterer dine ting osv.[Sample Text]</p>
+                <p class="PageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla perspiciatis minus nostrum, repellat eveniet velit totam fuga distinctio eos quia eius tempora dolores vitae eaque cupiditate iste temporibus commodi.</p>
+              </div>
+            </div>
+          </li>   
+          <li>
+            <div class="container-tjenester">
+              <img src="https://placehold.co/400" alt="">  
+              <div class="container-text">
+                <p class="PageHeader">Planering</p>
+                <p class="PageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aperiam odio, aut quidem adipisci fugiat voluptates eos ratione cumque iste eligendi sit enim provident! Rem ipsa harum quasi voluptate voluptatem.</p>
               </div>
             </div>
           </li>   
         </ul>
       </div>
     </div>
-    <script src="script.js"></script>     
+  </content> 
+  <?php include 'footer.php' ?>
+  <script src="script.js"></script>   
+</main>
+     
 </body>
 </html>
