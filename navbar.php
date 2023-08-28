@@ -1,26 +1,9 @@
 <?php include 'head.php'?>
-<nav class="Navbar">
-  <div class="NavItemWrapper">
-    <div class="" id="navbarSupportedContent">
-      <ul class="">
-        <li class="NavLogo">
-          <a href="#">RSGTransport</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Hjem</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="tjenester.php">Tjenester</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="kontakt.php">Kontakt meg</a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </div>
-  </div>
+<nav class="topnav" id="myTopnav">
+  <a href="index.php">RSGTransport</a>
+  <a href="tjenester.php">Tjenester</a>
+  <a href="kontakt.php">Kontakt</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </nav>

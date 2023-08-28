@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSGTransport</title>
     <?php include 'head.php'?>
+    <script src="script.js" defer></script>
 </head>
 <body>
+<?php include 'navbar.php'?>
     <main>
         <content>
-            <?php include 'navbar.php'?>
             <div class="container-fluid">
                 <div class="container">
                     <div class="container-flex">
