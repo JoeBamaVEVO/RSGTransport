@@ -16,6 +16,11 @@
           <a class="nav-link" href="kontakt.php">Kontakt meg</a>
         </li>
       </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </div>
   </div>
 </nav>
