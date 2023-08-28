@@ -275,13 +275,19 @@ content{
 }
 
 .topnav a {
+  vertical-align: middle;
+  line-height: 3rem; 
   float: left;
-  display: block;
   color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.topnav a:nth-child(1) {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
 }
 
 .topnav a:hover {
