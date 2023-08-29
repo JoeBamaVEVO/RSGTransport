@@ -260,25 +260,9 @@ content{
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+@media screen and (max-width: 1550px) {
+  .container-tjenester{
+    margin: 20px 10rem 0px 10rem;
   }
 }
 
@@ -292,10 +276,51 @@ content{
   }
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 701px) {
   .container-tjenester{
-    margin: 20px 10rem 0px 10rem;
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .slideshow-container{
+    margin: 0;
+  }
+
+  .container-text{
+    width: 100%;
+  }
+
+  .container-tjenester li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
 
 
