@@ -4,51 +4,7 @@ body{
     background-color: beige;
 }
 
-/* Navbar Styling */
-/* .NavLogo{
-    display: inline;
-}
 
-.Navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-}
-
-.Navbar li{
-    float: left;
-}
-
-.Navbar a{
-    text-decoration: none;
-    color: black;
-}
-
-.NavLogo a{
-    font-size: 42px;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav-item a{
-    font-size: 24px;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 1rem;
-    padding: 1rem 1rem;
-    text-decoration: none;
-}
-
-.nav-item a:hover {
-    transform: scale(1.1);
-    animation: 1s;
-  } */
 
 
 .PageHeader{
@@ -325,3 +281,21 @@ content{
     text-align: left;
   }
 }
+
+/* Media to remove img when screen < 1000px */
+@media screen and (max-width: 1000px) {
+  .container-flex img{
+    display: none;
+  }
+  .container-tjenester img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .container-tjenester{
+    margin: 20px 10rem 0px 10rem;
+  }
+}
+
+

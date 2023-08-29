@@ -35,7 +35,7 @@
           </li>   
           <li>
             <div class="container-tjenester">
-              <img src="https://placehold.co/400" alt="">  
+              <img src="https://placehold.co/300" alt="">  
               <div class="container-text">
                 <p class="PageHeader">Planering</p>
                 <p class="PageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aperiam odio, aut quidem adipisci fugiat voluptates eos ratione cumque iste eligendi sit enim provident! Rem ipsa harum quasi voluptate voluptatem.</p>
