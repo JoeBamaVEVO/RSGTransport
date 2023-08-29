@@ -1,11 +1,9 @@
-body{
+body {
     margin: 0;
     font-family: 'Segoe ui', sans-serif;
     background-color: beige;
+    min-height: 100vh;
 }
-
-
-
 
 .PageHeader{
     font-size: 42px;
@@ -50,7 +48,7 @@ body{
 }
 
 .container-flex{
-    margin: 2rem 2rem 0rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -76,10 +74,6 @@ body{
 
 * {
     box-sizing: border-box;
-  }
-  body {
-    flex-direction: column;
-    font-family: Verdana, sans-serif;
   }
   .mySlides {
     width: 100%;
@@ -159,13 +153,14 @@ body{
   list-style-type: none; /* Remove bullets */
 }
 
-/* footer */
 
+/* footer */
 footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;  
+margin-top: 5rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: rgb(42, 42, 42);
+margin-bottom: 0; 
 }
 
 footer ul{
@@ -189,38 +184,19 @@ footer ul a:hover{
 
 .DevWatermark{
   color: gray;
-  margin-left: 1rem;
+  margin-bottom: 0;
 }
 
 .DevWatermark a{
   color: gray;
-  /* text-decoration: none; */
+  text-decoration: none; 
 }
 
 .DevWatermark a:hover{
   transform: scale(1.6);
   color: beige;
   transition: 0.2s;
-}
-
-.footer{
-  background-color: rgb(42, 42, 42);
-
-}
-
-
-
-/* footer fix */
-
-main{
-  position: relative;
-  min-height: 100vh;
-}
-
-content{
-  padding-bottom: 2.5rem;
-}
-
+} 
 
 
 /* Navbar Test */
@@ -316,7 +292,15 @@ content{
     display: block;
     text-align: left;
   }
+  footer{
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  footer .container-text{
+    display: none;
+  }
 }
+
 
 
 

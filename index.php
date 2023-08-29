@@ -8,31 +8,25 @@
 </head>
 <body>
 <?php include 'navbar.php'?>
-    <main>
         <content>
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="container-flex">
-                        <div class="container-text">
-                            <p class="PageHeader">Trenger du transport, graving, <br>eller planering?</p>
-                            <p class="PageText">Rolfen hjelper deg.<br>  
-                                Uansett om du trenger varetransport eller maskinarbeid: <br>
-                                Rolfen kan hjelpe deg med alt av transportjenester, <br>
-                                og andre små oppdrag. <br>
-                            </p>
-                            <p class="PageInfo">Les mer om mine Tjenester her</p>
-                            <a href="tjenester.php">
-                                <button class="TjenesterBtn">
-                                    Mine Tjenester
-                                </button> 
-                            </a>
-                        </div>
-                        <img src="/bilder/Ihi28Gravemaskin.jpg" alt="">
-                    </div>
+            <div class="container-flex">
+                <div class="container-text">
+                    <p class="PageHeader">Trenger du transport, graving, <br>eller planering?</p>
+                    <p class="PageText">Rolfen hjelper deg.<br>  
+                        Uansett om du trenger varetransport eller maskinarbeid: <br>
+                        Rolfen kan hjelpe deg med alt av transportjenester, <br>
+                        og andre små oppdrag. <br>
+                    </p>
+                    <p class="PageInfo">Les mer om mine Tjenester her</p>
+                    <a href="tjenester.php">
+                        <button class="TjenesterBtn">
+                            Mine Tjenester
+                        </button> 
+                    </a>
                 </div>
+                <img src="/bilder/Ihi28Gravemaskin.jpg" alt="">
             </div>
         </content>
-   <?php include 'footer.php' ?>
-   </main>
+<?php include 'footer.php' ?>
 </body>
 </html>
