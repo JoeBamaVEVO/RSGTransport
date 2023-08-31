@@ -7,9 +7,9 @@
     <?php include 'head.php'?>
 </head>
 <body>
+<?php include 'navbar.php'?>
 <main>
   <content>    
-    <?php include 'navbar.php'?>
     <div class="slideshow-container">
       <div class="mySlides fade">
         <img src="bilder/Bilde1.svg" style="width: 100%" />
