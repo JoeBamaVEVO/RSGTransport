@@ -8,7 +8,7 @@
     <?php 
         include 'head.php';
         include 'navbar.php';
-    ?>
+    ?> 
 </head>
 <body>
 <body>
@@ -30,8 +30,6 @@
                         <p class="PageText">
                             kontakt@rolfen.no
                         </p>
-
-
                         <p class="PageHeader2">
                             Telefon:
                         </p>
@@ -50,8 +48,8 @@
             </div>
         </div>
     </content>
-    <?php include 'footer.php' ?>
 </main>
+<?php include 'footer.php' ?>
 </body>
 </html>
 </body>
