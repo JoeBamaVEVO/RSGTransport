@@ -50,9 +50,7 @@
             </div>
         </div>
     </content>
-    <?php include 'footer.php' ?>
 </main>
-</body>
-</html>
+<?php include 'footer.php' ?>
 </body>
 </html>
