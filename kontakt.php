@@ -17,8 +17,7 @@
         <div class="container-text">
             <p class="PageHeader">Ta kontakt</p>
             <p class="PageText">  
-                Jeg ønsker å gjøre det så enkelt som mulig for deg å komme i kontakt med oss. <br>
-                Vennligst bruk følgende kontaktinformasjon for å nå meg. <br>
+                For jobb, oppdrag eller tilbud. Ta kontakt på telefon eller E-post. <br>
                 Jeg ser frem til å høre fra deg!
             </p>
             <p class="PageHeader2">
