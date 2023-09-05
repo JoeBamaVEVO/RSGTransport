@@ -30,7 +30,7 @@
                 Telefon:
             </p>
             <p class="PageText">
-                123 45 678
+                934 68 313
             </p>
             <p class="PageInfo">Send oss en e-post her</p>
             <a href="mailto:kontakt@rolfen.no">

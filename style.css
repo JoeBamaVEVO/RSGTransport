@@ -157,6 +157,7 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
     justify-content: center;
     float: center;
     border-top: solid;
+    padding-top: 1rem;
     margin: 20px 25rem 0px 25rem;
   }
 
@@ -176,6 +177,7 @@ footer{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 background-color: #00453e;
+color: whitesmoke;
 margin-bottom: 0; 
 margin-top: 20px;
 }
@@ -189,12 +191,12 @@ footer li{
   margin-top: 1rem;
 }
 footer ul a{
-  color: #979090;
+  color: #ffffff;
   text-decoration: none;
 }
 
 footer ul a:hover{
-  color: rgb(156, 69, 69);
+  color: rgb(0, 123, 255);
   transition: 0.4s;
   text-decoration: none;
 }
@@ -211,7 +213,7 @@ footer ul a:hover{
 
 .DevWatermark a:hover{
   transform: scale(1.6);
-  color: beige;
+  color: rgb(0, 123, 255);
   transition: 0.2s;
 } 
 
@@ -221,13 +223,14 @@ footer ul a:hover{
 
 .topnav {
   background-color: #00453e;
+  color: whitesmoke;
 }
 
 .topnav a {
   vertical-align: middle;
   line-height: 3rem; 
   float: left;
-  color: #000000;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -236,7 +239,6 @@ footer ul a:hover{
 
 .topnav a:nth-child(1) {
   font-size: 28px;
-  color: rgb(0, 0, 0);
 }
 
 .topnav a:hover {
