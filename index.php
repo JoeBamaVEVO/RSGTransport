@@ -28,5 +28,6 @@
         </div>
     </content>
     <?php include 'footer.php' ?>
+    <!-- fixed Index -->
 </body>
 </html>
