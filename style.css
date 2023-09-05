@@ -175,7 +175,7 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
 footer{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-background-color: rgb(42, 42, 42);
+background-color: #00453e;
 margin-bottom: 0; 
 margin-top: 20px;
 }
@@ -220,7 +220,7 @@ footer ul a:hover{
 
 
 .topnav {
-  background-color: #ffffff;
+  background-color: #00453e;
 }
 
 .topnav a {
