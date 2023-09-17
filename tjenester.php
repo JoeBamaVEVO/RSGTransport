@@ -10,17 +10,17 @@
 <?php include 'navbar.php'?>
 <main>
   <content>    
-    <div class="slideshow-container">
+    <!-- <div class="slideshow-container">
       <div class="mySlides fade">
-        <img src="bilder/Bilde1.svg" style="width: 100%" />
+        <img src="bilder/bil.jpg" style="width: 100%" />
       </div>
       <div class="mySlides fade">
-        <img src="bilder/Bilde2.svg" style="width: 100%" />
+        <img src="bilder/Gravemaskin.jpg" style="width: 100%" />
       </div>
       <div class="mySlides fade">
         <img src="bilder/Bilde3.svg" style="width: 100%" />
       </div>
-    </div>
+    </div> -->
     <div class="container-fluid">
       <div class="tjenesterListe">
         <ul>

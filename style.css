@@ -54,11 +54,11 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
     border-style: none;
     padding: 10px;
     color: white;
-    background-color: rgba(0, 0, 255, 0.801);
+    background-color: #00453e;
 }
 
 .TjenesterBtn:hover{
-    background-color: rgba(0, 0, 255, 0.901);
+    background-color: #013731;
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.4s;
@@ -87,16 +87,10 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
     flex-wrap: wrap;
 }
 
-/* Bilde slideshow */
-
-* {
-    box-sizing: border-box;
-  }
+Bilde slideshow
   .mySlides {
     width: 100%;
-    position: relative;
-    top: 25%;
-    transform: translateY(-28%);  
+    transform: translateY(-40%);  
   }
 
   img {
@@ -108,7 +102,7 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
     overflow: hidden;
     position: relative;
     margin: auto;
-    max-height: 300px;
+    max-height: 500px;
     margin-bottom: 5rem;
   }
 
@@ -140,7 +134,7 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
     .text {
       font-size: 11px;
     }
-  }
+  } 
 
 
   /* Tjenester Liste Styling */
