@@ -9,7 +9,8 @@
 <body>
 <?php include 'navbar.php'?>
 <main>
-  <content>    
+  <content>  
+    
     <!-- <div class="slideshow-container">
       <div class="mySlides fade">
         <img src="bilder/bil.jpg" style="width: 100%" />
@@ -21,24 +22,33 @@
         <img src="bilder/Bilde3.svg" style="width: 100%" />
       </div>
     </div> -->
-    <div class="container-fluid">
+    <div class="container-tjenesterfluid">
+      <div class="container-text">
+        <header>
+          <p class="PageHeader">Mine Tjenester</p>
+        </header>
+        <p class="PageText"> 
+          Jeg tilbyr en rekke tjenester som du kan se under, <br>men jeg er alltid åpen for nye oppdrag. <br> 
+          Om du har noen spørsmål eller ønsker et tilbud, <br> ikke nøl med å ta kontakt!
+        </p>
+      </div>
       <div class="tjenesterListe">
         <ul>
           <li>
             <div class="container-tjenester">
-              <img src="https://placehold.co/300" alt="">  
+              <img src="bilder/Bil.jpg" alt="Image of a large SUV with a trailer attached">  
               <div class="container-text">
                 <p class="PageHeader">Transport</p>
-                <p class="PageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla perspiciatis minus nostrum, repellat eveniet velit totam fuga distinctio eos quia eius tempora dolores vitae eaque cupiditate iste temporibus commodi.</p>
+                <p class="PageText">Jeg hjelper deg med transport av alt fra materialer, motorsykkler, møbler, og masse, masse annet. Ta kontakt så kan vi finne ut hvordan jeg kan best kan hjelpe deg!</p>
               </div>
             </div>
           </li>   
           <li>
             <div class="container-tjenester">
-              <img src="https://placehold.co/300" alt="">  
+              <img src="/bilder/Gravemaskin.jpg" alt="Image of a digger">  
               <div class="container-text">
                 <p class="PageHeader">Planering</p>
-                <p class="PageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aperiam odio, aut quidem adipisci fugiat voluptates eos ratione cumque iste eligendi sit enim provident! Rem ipsa harum quasi voluptate voluptatem.</p>
+                <p class="PageText">Jeg helper deg meg planering og graving ved små prosjekter. Om du trenger en liten platning, grusvei, eller annet, ikke nøl å ta kontakt! </p>
               </div>
             </div>
           </li>   
@@ -46,9 +56,8 @@
       </div>
     </div>
   </content> 
-  <?php include 'footer.php' ?>
-  <script src="script.js"></script>   
 </main>
-     
+<?php include 'footer.php' ?> 
+<script src="script.js"></script>   
 </body>
 </html>

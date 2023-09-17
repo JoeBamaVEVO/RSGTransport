@@ -24,7 +24,7 @@
                     </button> 
                 </a>
             </div>
-            <img src="/bilder/Ihi28Gravemaskin.jpg" alt="">
+            <img src="/bilder/Ihi28Gravemaskin.jpg" alt="Image of a digger">
         </div>
     </content>
     <?php include 'footer.php' ?>
