@@ -23,17 +23,21 @@
       </div>
     </div> -->
     <div class="container-tjenesterfluid">
-      <div class="container-text">
-        <header>
-          <p class="PageHeader">Mine Tjenester</p>
-        </header>
-        <p class="PageText"> 
-          Jeg tilbyr en rekke tjenester som du kan se under, <br>men jeg er alltid åpen for nye oppdrag. <br> 
-          Om du har noen spørsmål eller ønsker et tilbud, <br> ikke nøl med å ta kontakt!
-        </p>
-      </div>
       <div class="tjenesterListe">
         <ul>
+        <li>
+            <div class="container-tjenester">
+              <img style="visibility: hidden" src="bilder/Bilde3.svg" alt="Image of a large SUV with a trailer attached">
+              <div class="container-text">
+                <p class="PageHeader">Mine Tjenester</p>
+                <p class="PageText"> 
+                  Jeg tilbyr en rekke tjenester som du kan se under, men jeg er alltid åpen for nye oppdrag. 
+                  Om du har noen spørsmål eller ønsker et tilbud,  ikke nøl med å ta kontakt!
+                </p>
+              </div>
+            </div>
+          </li>   
+        
           <li>
             <div class="container-tjenester">
               <img src="bilder/Bil.jpg" alt="Image of a large SUV with a trailer attached">  

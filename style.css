@@ -87,11 +87,10 @@ body::-webkit-scrollbar{display: none; /* for Chrome, Safari, and Opera */}
   justify-content: center;
 }
 
-
-
 .TjenesterDiv{
     flex-wrap: wrap;
 }
+
 .container-tjenesterfluid{
   display: flex;
   justify-content: center;
@@ -161,7 +160,6 @@ Bilde slideshow
   .container-tjenester{
     display: flex;
     justify-content: center;
-    float: center;
     border-top: solid;
     padding-top: 1rem;
     margin: 20px 25rem 0px 25rem;
