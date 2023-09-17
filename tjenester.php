@@ -27,7 +27,7 @@
         <ul>
         <li>
             <div class="container-tjenester">
-              <img style="visibility: hidden" src="bilder/Bilde3.svg" alt="Image of a large SUV with a trailer attached">
+              <img style="visibility: hidden" src="bilder/Ihi28Gravemaskin" alt="Image of a large SUV with a trailer attached">
               <div class="container-text">
                 <p class="PageHeader">Mine Tjenester</p>
                 <p class="PageText"> 
