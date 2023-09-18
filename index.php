@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="RSGTransport, ett selskap i Bergen som driver med Transport, Planering, og annet maskinarbeid"> 
+    <meta name="keywords" content="Transport, Frakt, Planering, Graving, Maskinarbeid, Bergen">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSGTransport</title>
+    <title>RSG-Transport: Transport og maskinarbeid</title>
     <?php include 'head.php'?>
 </head>
 <body>
@@ -28,6 +30,5 @@
         </div>
     </content>
     <?php include 'footer.php' ?>
-    <!-- fixed Index -->
 </body>
 </html>
