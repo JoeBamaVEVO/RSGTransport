@@ -13,7 +13,7 @@
     <content>
         <div class="container-flex">
             <div class="container-text">
-                <p class="PageHeader">Trenger du transport, graving, <br>eller planering?</p>
+                <h1 class="PageHeader">Trenger du transport, graving, <br>eller planering?</h1>
                 <p class="PageText"> 
                 Enten du trenger hjelp med transport <br>
                 eller mindre maskinarbeid. <br>
